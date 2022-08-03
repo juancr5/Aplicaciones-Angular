@@ -9,5 +9,5 @@ In the project directory, you can run:
 The application will automatically reload if you change any of the source files.\
 Navigate to [http://localhost:4200/](http://localhost:4200/).
 
-![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/01%20Add%20List%20Market.jpg)<br/>
+![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/02%20Add%20List%20Market.jpg)<br/>
 
