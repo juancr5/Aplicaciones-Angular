@@ -15,5 +15,8 @@ Navigate to [http://localhost:4200/](http://localhost:4200/).
 ### `Image 2`
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/04%20Countries%20App%20Item.jpg)
 
+## Project Structure
+![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/04%20Project%20Structure.jpg)
+
 ### References
 https://restcountries.com/
