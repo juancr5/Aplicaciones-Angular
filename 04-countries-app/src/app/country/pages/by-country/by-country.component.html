@@ -1,0 +1,48 @@
+
+<div class="animate__animated animate__fadeIn animate__faster">
+    <h2>Por País</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col">
+            <!-- Le pasa la funcion buscar atraves del emiter del onEnter  -->
+            <app-input-country 
+                (onEnter)="buscar($event)"
+                (onDebounce)="sugerencias($event)"
+                placeholder="Buscar pais en ingles..."
+            >
+            </app-input-country>
+        </div>
+    </div>
+
+    <ul *ngIf="mostrarSugerencias"
+        class="list-group">
+        <li *ngFor="let country of suggestedCountries"
+            class="list-group-item list-group-item-action">
+            <a class="nav-link"
+            [routerLink]="['/pais', country.cca3]">
+                {{ country.name.common }}
+            </a>
+        </li>
+        <li class="list-group-item list-group-item-action"
+            (click)="buscarSugerido( termino )">
+            <a class="nav-link">
+                Buscar "{{ termino }}"
+            </a>
+        </li>
+    </ul>
+
+    <hr />
+
+</div>
+
+<div *ngIf="errorExists" class="alert alert-danger">
+    no se encontro ningun resultado para la busqueda: {{termino}}
+</div>
+
+<div *ngIf="!errorExists" class="row">
+    <div class="col">
+        <!--Llama al componente hijo y le pasa el parametro de los countries -->
+        <app-table-country [dataTable]="countries"></app-table-country>
+    </div>
+</div>

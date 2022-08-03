@@ -1,0 +1,9 @@
+<h2>Productos</h2>
+<hr>
+
+<ul>
+    <li *ngFor="let product of productItems">
+        <!--"Pipe: | number" para mostrar el numero en el separador decimal -->
+        {{ product.nombre }} - {{ product.valor | number }}
+    </li>
+</ul>

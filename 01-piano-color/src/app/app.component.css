@@ -1,0 +1,18 @@
+button {
+    /*El cursor es un puntero e indica un enlace.*/
+    cursor: pointer; 
+    height: 100px; 
+    width: 100px;
+    margin-left: 10px;
+}
+
+button:active {
+    opacity: 0.7; 
+}
+
+.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}

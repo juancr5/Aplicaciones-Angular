@@ -1,0 +1,76 @@
+<div *ngIf="!country; else divCountry" class="alert alert-info">
+    Espere por favor...
+</div>
+
+<ng-template #divCountry>
+
+    <div class="row">
+        <div class="col-12">
+            <h1>País: <small>{{ country.name.common}}</small></h1>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-4">
+            <h4>Bandera</h4>
+            <img [src]="country.flags.png" class="img-thumbnail" />
+        </div>
+
+        <div class="col">
+            <h3>Información</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Nombre Oficial: </strong>{{ country.name.official }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Población:</strong> {{ country.population | number }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Código numérico:</strong> {{ country.ccn3 }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Código cca3:</strong> {{ country.cca3}}
+                </li>
+                <li class="list-group-item">
+                    <strong>Continente:</strong> {{ country.continents}}
+                </li>
+                <li class="list-group-item">
+                    <strong>Area:</strong> {{ country.area}}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr />
+
+    <!--Escudo de Armas-->
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-6">
+            <h3>Escudo</h3>
+            <img [src]="country.coatOfArms.png" class="img-thumbnail" />
+        </div>
+        <div class="col"></div>
+    </div>
+    <hr />
+
+    <!--Lenguajes-->
+    <h3>Traducciones</h3>
+    <div class="row">
+        <div class="col">
+            <span class="badge bg-primary mr-1">Español: {{ country.translations.spa.common }}</span>
+            <span class="badge bg-primary mr-1">Arabe: {{ country.translations.ara.common }}</span>
+            <span class="badge bg-primary mr-1">Aleman: {{ country.translations.deu.common }} </span>
+            <span class="badge bg-primary mr-1">Frances: {{ country.translations.fra.common }}</span>
+            <span class="badge bg-primary mr-1">Italiano: {{ country.translations.ita.common }}</span>
+            <span class="badge bg-primary mr-1">Portugues: {{ country.translations.por.common }}</span>
+            <span class="badge bg-primary mr-1">Ruso: {{ country.translations.rus.common }}</span>
+            <span class="badge bg-primary mr-1">Coreano: {{ country.translations.kor.common }}</span>
+            <span class="badge bg-primary mr-1">Japonés: {{ country.translations.jpn.common }}</span>
+            <span class="badge bg-primary mr-1">Holandés: {{ country.translations.nld.common }}</span>
+        </div>
+    </div>
+
+
+
+</ng-template>

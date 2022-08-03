@@ -1,0 +1,30 @@
+
+<div class="animate__animated animate__fadeIn animate__faster">
+    <h3>Por Continentes <small> {{ regionActiva | titlecase }} </small></h3>
+    <hr>
+
+    <h5>Seleccione la region</h5>
+
+    <div class="row">
+        <!--[class]="getClaseCSS( region )" pone el css de manera condicional con una expresion de TypeScript-->
+        <div class="col">
+            <button 
+			*ngFor="let region of regiones"
+            	[class]="getClaseCSS( region )"
+            	(click)="activarRegion( region )"
+	  	>
+            	{{ region | titlecase }}
+    		</button>
+        </div>
+    </div>
+
+    <hr />
+
+
+    <div *ngIf="countries.length > 0" class="row">
+        <div class="col">
+            <!--Llama al componente hijo y le pasa el parametro de los countries -->
+            <app-table-country [dataTable]="countries"></app-table-country>
+        </div>
+    </div>
+</div>
