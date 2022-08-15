@@ -22,10 +22,6 @@ Navigate to [http://localhost:4200/](http://localhost:4200/).
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/05%20Project%20Structure.jpg)
 
 ### References
-https://restcountries.com/
-
-
-### References
 https://www.primefaces.org/primeng/
 
 ![alt tag](https://miro.medium.com/max/433/1*qyGXPQTGm8T8JSI4tEVOqA.png)
