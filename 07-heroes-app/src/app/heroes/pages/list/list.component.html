@@ -1,0 +1,28 @@
+<h1>Listado de Heroes</h1>
+<mat-divider></mat-divider>
+<br>
+
+<!--Error en la data -->
+<mat-toolbar *ngIf="errorExists" color="warn">
+    <span>No se encontro ninguna información del lado del servidor</span>
+</mat-toolbar>
+
+<!--Angular flex-->
+<div 
+    fxLayout="row wrap" 
+    fxLayout.xs="column"
+    fxLayoutAlign="center"
+    fxLayoutGap="20px"
+>
+    <!--porcentaje del tamaño de cada tarjeta-->
+    <div 
+        fxFlex="20" 
+        fxFlex.lg="15" 
+        fxFlex.sm="30"
+        *ngFor="let heroe of heroes"
+    >
+    <!--Componente que llama la tarjeta de heroe-->
+    <app-heroe-card [heroe]="heroe"></app-heroe-card>
+        
+    </div>
+</div>
