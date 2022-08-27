@@ -41,7 +41,10 @@
 
         <span class="spacer"></span>
 
-        <button mat-icon-button>
+        <!--Nombre del Usuario Activo-->
+        <span class="name-space">{{ auth.usuario }}</span>
+
+        <button mat-icon-button (click)="logout()">
             Logout
         </button>
     </mat-toolbar>
