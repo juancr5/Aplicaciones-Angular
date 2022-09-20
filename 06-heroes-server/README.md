@@ -1,13 +1,14 @@
-# HeroesServer
+# Heroes Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This project was generated with JSON Server version 0.17.0.
+Get a full fake REST API with zero coding.
+![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20JSON%20Server.jpg)
 
 ## Available Scripts
 In the project directory, you can run:
 
-### `ng serve --o`
-The application will automatically reload if you change any of the source files.\
-Navigate to [http://localhost:4200/](http://localhost:4200/).
+### `json-server --watch db.json`
+Start `JSON Server
 
-### `Image 1`
-![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/05%20Pipes%20Basicos.jpg)
+### References
+https://www.npmjs.com/package/json-server
