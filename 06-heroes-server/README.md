@@ -8,7 +8,7 @@ Get a full fake REST API with zero coding.
 In the project directory, you can run:
 
 ### `json-server --watch db.json`
-Start `JSON Server
+Start JSON Server
 
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Open%20Server.jpg)
 
