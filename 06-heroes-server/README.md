@@ -5,7 +5,7 @@ Get a full fake REST API with zero coding.
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20JSON%20Server.jpg)
 
 Install JSON Server
-npm install -g json-server
+### `npm install -g json-server`
 
 ## Available Scripts
 In the project directory, you can run:
