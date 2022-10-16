@@ -11,3 +11,6 @@ Navigate to [http://localhost:4200/](http://localhost:4200/).
 
 ### `Image 1`
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/05%20Pipes%20Basicos.jpg)
+
+
+Angular Material
