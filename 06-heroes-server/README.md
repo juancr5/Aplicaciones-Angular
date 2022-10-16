@@ -13,7 +13,6 @@ In the project directory, you can run:
 Start JSON Server
 ### `json-server --watch db.json`
 
-
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Open%20Server.jpg)
 
 ### References
