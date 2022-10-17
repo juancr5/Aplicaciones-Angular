@@ -9,6 +9,11 @@
       "id": 2,
       "usuario": "Juan Camilo",
       "email": "juan@gmail.com"
+    },
+    {
+      "id": 3,
+      "usuario": "Esteban",
+      "email": "esteban@gmail.com"
     }
   ],
   "heroes": [
