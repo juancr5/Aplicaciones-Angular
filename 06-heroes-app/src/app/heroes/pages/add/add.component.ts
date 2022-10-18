@@ -64,7 +64,6 @@ export class AddComponent implements OnInit {
   }
 
   //Metodos 
-
   guardarHeroe() {
 
     //Validar que el heroe no este vacio
