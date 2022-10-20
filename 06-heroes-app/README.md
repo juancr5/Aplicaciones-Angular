@@ -19,4 +19,6 @@ Navigate to [http://localhost:4200/](http://localhost:4200/).
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Heroes%20App%20Edit.jpg)
 
 ### References
-Angular Material
+https://material.angular.io/
+
+![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Angular%20Material.jpg)
