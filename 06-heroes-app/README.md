@@ -13,7 +13,7 @@ Navigate to [http://localhost:4200/](http://localhost:4200/).
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Heroes%20App%20Menu.jpg)
 
 ### `Image 2`
-![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Heroes%20App%20Edit.jpg)
+![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Heroes%20App%20Delete.jpg)
 
 ### `Image 3`
 ![alt tag](https://github.com/juancr5/Aplicaciones-Angular/blob/main/images/06%20Heroes%20App%20Edit.jpg)
